@@ -59,14 +59,14 @@ git clone https://github.com/TaleLin/lin-ui.git
 
 1. 配置微信开发者工具
 
-     - 要正确使用 Lin UI，需将微信开发者工具的 `Es6 转 ES5` 选项勾选上
+     - 要正确使用 Lin UI，需将微信开发者工具的 `JS编译成 ES5` 选项勾选上
 
        > 设置路径：微信开发者工具右上角 -> 详情 -> 本地设置
 
      - **将基础库版本设置到 `>=2.8.2`**
 
 2. 在页面中引入
-   ```json
+   ```XXX.json
    {
      "usingComponents":{
        "l-button":"/miniprogram_npm/lin-ui/button/index"
@@ -74,7 +74,7 @@ git clone https://github.com/TaleLin/lin-ui.git
    }
    ```
 3. 在页面中使用
-   ```html
+   ```XXX.WXML
     <l-button type="default">默认按钮</l-button>
    ```
    > 我们建议你在引入 Lin UI 组件时，都统一命名为 `l-{组件名}` 格式，遵循此规范将使你的项目代码更加清晰
